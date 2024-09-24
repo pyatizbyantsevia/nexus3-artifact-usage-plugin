@@ -2,6 +2,8 @@
 
  This Nexus plugin allows the user to get the list of artifacts depending on the given artifact
 
+ Inspired by [Saleem Shafi | Nexus Artifact Usage plugin](https://github.com/saleemshafi/nexus-artifact-usage-plugin) for Nexus 2
+
 
 # Notes
 

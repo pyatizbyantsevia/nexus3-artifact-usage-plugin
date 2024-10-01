@@ -6,7 +6,7 @@
 
 # Status: In development, not ready for use
 
-# Build
+# Build and deploy
 
 Prerequisites:
 

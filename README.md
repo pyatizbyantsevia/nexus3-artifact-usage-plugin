@@ -6,6 +6,21 @@
 
 # Status: In development, not ready for use
 
+# Build
+
+Prerequisites:
+
+* Java 8;
+* Maven (I use 3.6.3)
+
+To build sources:
+
+```
+mvn clean package -PbuildKar
+```
+
+After that, place the file target/nexus3-repository-artifact-usage-plugin-*-bundle.kar in the nexus container at /opt/sonatype/nexus/deploy
+
 # Notes
 
 #### Help for developing Nexus plugin bundle: https://github.com/sonatype/nexus-plugin-bundle

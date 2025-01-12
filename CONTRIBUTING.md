@@ -4,9 +4,9 @@
 
 1. Fork the repository on GitHub
 2. Clone the forked repository to your machine
-3. Install the necessary development tools. In order to develop Jenkins, you need the following:
-   - Java Development Kit (JDK) 8.
-   - Apache Maven 3.6.3 or above.
+3. Install the necessary development tools. In order to develop plugin, you need the following:
+   - Java Development Kit (JDK) 8;
+   - Apache Maven 3.6.3 or above;
    - Any IDE which supports importing Maven projects.
 
 ## Build and deploy
@@ -14,7 +14,7 @@
 ```sh
 mvn clean package -PbuildKar
 ```
-After that, place the file target/nexus3-repository-artifact-usage-plugin-*-bundle.kar in the nexus container at /opt/sonatype/nexus/deploy
+After that, place the file target/nexus3-repository-artifact-usage-plugin-*-bundle.kar in the Nexus container at /opt/sonatype/nexus/deploy
 
 ### Pull request management
 
